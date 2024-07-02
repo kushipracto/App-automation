@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.9.6 on darwin)" generated="2024-06-29T15:30:51.268213" rpa="false" schemaversion="5">
+<suite id="s1" name="Robo Tests" source="/Users/kushiks/Desktop/appium/robo_tests.robot">
+<test id="s1-t1" name="Open Test Application" line="5">
+<kw name="open application">
+<msg time="2024-06-29T15:30:51.304637" level="FAIL">No keyword with name 'open application' found.</msg>
+<arg>http://localhost:4723/wd/hub</arg>
+<arg>platformName=Android</arg>
+<arg>platformVersion=13</arg>
+<arg>appActivity=LauncherAlias</arg>
+<arg>automationName=Appium</arg>
+<arg>appPackage=com.practo.fabric</arg>
+<status status="FAIL" start="2024-06-29T15:30:51.304271" elapsed="0.000541">No keyword with name 'open application' found.</status>
+</kw>
+<status status="FAIL" start="2024-06-29T15:30:51.302223" elapsed="0.002949">No keyword with name 'open application' found.</status>
+</test>
+<status status="FAIL" start="2024-06-29T15:30:51.270344" elapsed="0.035838"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Robo Tests">Robo Tests</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-06-29T15:30:51.300462" level="ERROR">Error in file '/Users/kushiks/Desktop/appium/robo_tests.robot' on line 2: Importing library 'AppiumLibrary' failed: ModuleNotFoundError: No module named 'AppiumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /Users/kushiks/Library/Application Support/JetBrains/PyCharmCE2023.3/plugins/robotframework-intellij/lib/robotframework_debug_adapter
+  /Users/kushiks/PycharmProjects/automation
+  /Users/kushiks/Library/Application Support/JetBrains/PyCharmCE2023.3/plugins/robotframework-intellij/lib
+  /Users/kushiks/Library/Application Support/JetBrains/PyCharmCE2023.3/plugins/robotframework-intellij/lib/robotframework_ls/vendored
+  /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python39.zip
+  /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9
+  /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload
+  /Users/kushiks/Library/Python/3.9/lib/python/site-packages
+  /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages</msg>
+</errors>
+</robot>
